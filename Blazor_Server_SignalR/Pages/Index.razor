@@ -15,14 +15,18 @@
     </label>
 </div>
 <button @onclick="Send" disabled="@(EstaConectado == false)">Enviar</button>
+<div style="border: 1px solid black;">
+    <hr />
+    <ul>
+            @foreach (string msg in mensajes)
+            {
+                <li>@msg</li>
+            }
+    </ul>
+</div>
 
-<hr />
-<ul>
-    @foreach(string msg in  mensajes)
-    {
-        <li>@msg</li>
-    }
-</ul>
+<p ></p>
+
 
 @code
 {
@@ -30,6 +34,7 @@
     private List<string> mensajes = new();
     private string? userInput;
     private string? msgInput;
+
 
     protected override async Task OnInitializedAsync()
     {

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\Blazor_Server_SignalR.csproj": {}
+    "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\Blazor_Server_SignalR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\Blazor_Server_SignalR.csproj": {
+    "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\Blazor_Server_SignalR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\Blazor_Server_SignalR.csproj",
+        "projectUniqueName": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\Blazor_Server_SignalR.csproj",
         "projectName": "Blazor_Server_SignalR",
-        "projectPath": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\Blazor_Server_SignalR.csproj",
-        "packagesPath": "C:\\Users\\JVazquez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\obj\\",
+        "projectPath": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\Blazor_Server_SignalR.csproj",
+        "packagesPath": "C:\\Users\\Vazquez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JVazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vazquez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Su40kN8/is57H87RcwWTTjRfH57sDqNB+FeT6QWozR0=",
+  "Hash": "gutOgfdLmZDiWCxC0wTm2UUzkgcYJubk/pZ5xioiFDI=",
   "Source": "Blazor_Server_SignalR",
   "BasePath": "_content/Blazor_Server_SignalR",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Blazor_Server_SignalR\\wwwroot",
       "Source": "Blazor_Server_SignalR",
-      "ContentRoot": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
       "BasePath": "_content/Blazor_Server_SignalR",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\obj\\Release\\net6.0\\scopedcss\\bundle\\Blazor_Server_SignalR.styles.css",
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\obj\\Release\\net6.0\\scopedcss\\bundle\\Blazor_Server_SignalR.styles.css",
       "SourceId": "Blazor_Server_SignalR",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\obj\\Release\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\obj\\Release\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Blazor_Server_SignalR",
       "RelativePath": "Blazor_Server_SignalR.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\obj\\Release\\net6.0\\scopedcss\\bundle\\Blazor_Server_SignalR.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\obj\\Release\\net6.0\\scopedcss\\bundle\\Blazor_Server_SignalR.styles.css"
     },
     {
-      "Identity": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\Blazor_Server_SignalR.bundle.scp.css",
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\Blazor_Server_SignalR.bundle.scp.css",
       "SourceId": "Blazor_Server_SignalR",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Blazor_Server_SignalR",
       "RelativePath": "Blazor_Server_SignalR.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\Blazor_Server_SignalR.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\Blazor_Server_SignalR.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "Blazor_Server_SignalR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
       "BasePath": "_content/Blazor_Server_SignalR",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Blazor_Server_SignalR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
       "BasePath": "_content/Blazor_Server_SignalR",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "Blazor_Server_SignalR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
       "BasePath": "_content/Blazor_Server_SignalR",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "Blazor_Server_SignalR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
       "BasePath": "_content/Blazor_Server_SignalR",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "Blazor_Server_SignalR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
       "BasePath": "_content/Blazor_Server_SignalR",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "Blazor_Server_SignalR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
       "BasePath": "_content/Blazor_Server_SignalR",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "Blazor_Server_SignalR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
       "BasePath": "_content/Blazor_Server_SignalR",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "Blazor_Server_SignalR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
       "BasePath": "_content/Blazor_Server_SignalR",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "Blazor_Server_SignalR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
       "BasePath": "_content/Blazor_Server_SignalR",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "Blazor_Server_SignalR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
       "BasePath": "_content/Blazor_Server_SignalR",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "Blazor_Server_SignalR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
       "BasePath": "_content/Blazor_Server_SignalR",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\site.css",
       "SourceId": "Blazor_Server_SignalR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
       "BasePath": "_content/Blazor_Server_SignalR",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\favicon.ico",
       "SourceId": "Blazor_Server_SignalR",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\",
       "BasePath": "_content/Blazor_Server_SignalR",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
