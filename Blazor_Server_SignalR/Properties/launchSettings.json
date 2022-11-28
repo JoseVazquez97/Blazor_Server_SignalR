@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://ver.server.signal:7072",
+      "applicationUrl": "http://localhost.signal:7072",
       "sslPort": 44339
     }
   },
