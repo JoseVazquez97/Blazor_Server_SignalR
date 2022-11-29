@@ -16,5 +16,9 @@ namespace Blazor_Server_SignalR.Hubs
             await Clients.All.SendAsync("RecibirEstado", user, msg);
         }
 
+        public async Task EnviarDados(string user, string val1, string val2) 
+        {
+            await Clients.All.SendAsync("RecibirDados", user, val1, val2);
+        }
     }
 }
