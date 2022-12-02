@@ -16,9 +16,15 @@ namespace Blazor_Server_SignalR.Hubs
             await Clients.All.SendAsync("RecibirEstado", user, msg);
         }
 
+        public async Task EnviarBarcos(string usr, string barco1, string barco2) 
+        {
+            await Clients.All.SendAsync("RecibirBarco", usr, barco1, barco2);
+        }
+
+
         public async Task EnviarDados(string user, string val1, string val2) 
         {
-            await Clients.All.SendAsync("RecibirDados", user, val1, val2);
+            await Clients.Others.SendAsync("RecibirDados", user, val1, val2);
         }
     }
 }
