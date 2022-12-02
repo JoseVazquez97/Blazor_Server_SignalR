@@ -31,7 +31,6 @@ app.UseRouting();
 
 app.MapBlazorHub();
 app.MapHub<ChatHub>("/chathub");
-app.MapHub<HomeHub>("/homeHub");
 app.MapHub<HomeHubNew>("/homeHubNew");
 app.MapFallbackToPage("/_Host");
 
