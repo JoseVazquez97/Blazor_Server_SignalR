@@ -4,6 +4,8 @@ namespace Blazor_Server_SignalR.Hubs
 {
     public class HomeHubNew : Hub
     {
+        private static string mapax { get; set; } = "";
+
         //WebCams
         public async Task EnviarImagen(string imagenU1x, string rol)
         {
@@ -25,5 +27,21 @@ namespace Blazor_Server_SignalR.Hubs
         {
             await Clients.All.SendAsync("RecibirDados", usr, val1, val2);
         }
+
+        public async Task EnviarMapa(string usr, string mapa)
+        {
+            mapax = mapa;
+
+            await Clients.All.SendAsync("RecibirMapa", usr, mapa);
+        }
+
+        public async Task ConsultarMap()
+        {
+            string mapa = mapax;
+
+            await Clients.All.SendAsync("RecibirCMapa", mapa);
+        }
+
+
     }
 }
