@@ -5,6 +5,12 @@ namespace Blazor_Server_SignalR.Hubs
     public class HomeHubNew : Hub
     {
         private static string mapax { get; set; } = "";
+        private static string desCap { get; set; } = "";
+        private static string B1 { get; set; } = "";
+        private static string B2 { get; set; } = "";
+        private static string V1 { get; set; } = "";
+        private static string V2 { get; set; } = "";
+
 
         //WebCams
         public async Task EnviarImagen(string imagenU1x, string rol)
@@ -18,14 +24,36 @@ namespace Blazor_Server_SignalR.Hubs
             await Clients.All.SendAsync("RecibirEstado", usr, msg);
         }
 
-        public async Task EnviarBarcos(string usr, string barco1, string barco2) 
+        public async Task EnviarBarcos(string usr, string barco1, string barco2)
         {
-            await Clients.All.SendAsync("RecibirBarco", usr, barco1, barco2);
+            B1 = barco1;
+            B2 = barco2;
+
+            await Clients.All.SendAsync("RecibirBarcos", usr, barco1, barco2);
+        }
+
+        public async Task ConsutarBarcos() 
+        {
+            string b1 = B1;
+            string b2 = B2;
+
+            await Clients.All.SendAsync("RecibirCBarcos", b1, b2);
         }
 
         public async Task EnviarDados(string usr, string val1, string val2) 
         {
+            V1 = val1;
+            V2 = val2;
+
             await Clients.All.SendAsync("RecibirDados", usr, val1, val2);
+        }
+
+        public async Task ConsultarDados() 
+        {
+            string v1 = V1;
+            string v2 = V2;
+
+            await Clients.All.SendAsync("RecibirCDados", v1, v2);
         }
 
         public async Task EnviarMapa(string usr, string mapa)
@@ -42,6 +70,18 @@ namespace Blazor_Server_SignalR.Hubs
             await Clients.All.SendAsync("RecibirCMapa", mapa);
         }
 
+        public async Task EnviarMov(string des)
+        {
+            desCap = des;
 
+            await Clients.All.SendAsync("RecibirMov", des);
+        }
+
+        public async Task ConsultarMov() 
+        {
+            string des = desCap;
+
+            await Clients.All.SendAsync("RecibirCMov", des);
+        }
     }
 }
