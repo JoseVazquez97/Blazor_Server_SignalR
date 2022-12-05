@@ -8,8 +8,9 @@ namespace Blazor_Server_SignalR.Hubs
         private static string desCap { get; set; } = "";
         private static string B1 { get; set; } = "";
         private static string B2 { get; set; } = "";
-        private static string V1 { get; set; } = "";
-        private static string V2 { get; set; } = "";
+        private static string V1 { get; set; } = "1";
+        private static string V2 { get; set; } = "1";
+        private static string ER { get; set; } = "";
 
 
         //WebCams
@@ -24,12 +25,12 @@ namespace Blazor_Server_SignalR.Hubs
             await Clients.All.SendAsync("RecibirEstado", usr, msg);
         }
 
-        public async Task EnviarBarcos(string usr, string barco1, string barco2)
+        public async Task EnviarBarcos(string barco1, string barco2)
         {
             B1 = barco1;
             B2 = barco2;
 
-            await Clients.All.SendAsync("RecibirBarcos", usr, barco1, barco2);
+            await Clients.All.SendAsync("RecibirBarcos", barco1, barco2);
         }
 
         public async Task ConsutarBarcos() 
@@ -82,6 +83,20 @@ namespace Blazor_Server_SignalR.Hubs
             string des = desCap;
 
             await Clients.All.SendAsync("RecibirCMov", des);
+        }
+
+        public async Task EnviarEvento(string evento)
+        {
+            ER = evento;
+
+            await Clients.All.SendAsync("RecibirEvento", evento);
+        }
+
+        public async Task ConsultarEv()
+        {
+            string evento = ER;
+
+            await Clients.All.SendAsync("RecibirCEvento", evento);
         }
     }
 }
