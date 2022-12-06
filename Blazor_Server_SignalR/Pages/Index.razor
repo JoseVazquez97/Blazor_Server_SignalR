@@ -29,12 +29,12 @@
         Enviar
     </button>
 
-    <div style="border: 1px solid black; width: 300px; Height: 350px; background-color:white;">
+    <div style="border: 1px solid black; width: 300px; Height: 300px; background-color:white;">
         <hr />
         <ul style="color: red;">
-            @foreach (string msg in mensajes)
+            @foreach (string msg in Invert)
             {
-                <li>@msg</li>
+                <li style="padding-bottom:0px;">@msg</li>
             }
         </ul>
     </div>
@@ -42,7 +42,7 @@
 
 <div style="barckground-color:white; width:45%; heigth: 300px; float:left; align-items: center; padding-top: 150px;">
     
-    <a style="background-color:white; padding: 30px; border-radius: 15px;"  href="https://docs.microsoft.com/aspnet/"> DESCARGAR </a>
+    <a style="background-color:white; padding: 30px; border-radius: 15px;"  href="https://docs.microsoft.com/aspnet/"> LINK A MI GOOGLE DRIVE. </a>
 </div>
 
 </body>
@@ -52,6 +52,7 @@
 {
     private HubConnection? hubConnection;
     private List<string> mensajes = new();
+    private List<string> Invert = new();
     private string? userInput;
     private string? msgInput;
 
@@ -69,6 +70,7 @@
             {
                 mensajes.RemoveAt(0);
             }
+            Invert = Enumerable.Reverse(mensajes).ToList();
             InvokeAsync(StateHasChanged);
         });
 
