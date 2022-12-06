@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "c/WCQoqhxqGWlNJ4AiFa833yZ7AV4Z97FIIeSs6aInQ=",
+  "Hash": "J7kUhVcDI5WoSsOM5tvrQrvk3LeJRz7xEEJdRrCeNw0=",
   "Source": "Blazor_Server_SignalR",
   "BasePath": "_content/Blazor_Server_SignalR",
   "Mode": "Default",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server\\Blazor_Server_SignalR\\wwwroot\\js\\indexmio.js",
+      "SourceId": "Blazor_Server_SignalR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server\\Blazor_Server_SignalR\\wwwroot\\",
+      "BasePath": "_content/Blazor_Server_SignalR",
+      "RelativePath": "js/indexmio.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\indexmio.js"
     }
   ]
 }
