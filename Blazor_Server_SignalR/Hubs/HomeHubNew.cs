@@ -11,14 +11,45 @@ namespace Blazor_Server_SignalR.Hubs
         private static string V1 { get; set; } = "1";
         private static string V2 { get; set; } = "1";
         private static string ER { get; set; } = "";
+        private static string SU1 { get; set; } = "0";
+        private static string SU2 { get; set; } = "0";
+        private static string SU3 { get; set; } = "0";
+        private static string SU4 { get; set; } = "0";
 
 
-        //WebCams
-        public async Task EnviarImagen(string imagenU1x, string rol)
+        public async Task ConsultarPath()
         {
+            string msg = $"{SU1};{SU2};{SU3};{SU4};";
+
             //MANDAR LA ACTUALIZACION
-            await Clients.All.SendAsync("RecibirImagen", imagenU1x, rol);
+            await Clients.Caller.SendAsync("RecibirCPath", msg);
         }
+
+        public async Task EnviarPath(string quien, string path) 
+        {
+            switch (quien) 
+            {
+                case "1":
+                    SU1 = path;
+                    break;
+
+                case "2":
+                    SU2 = path;
+                    break;
+
+                case "3":
+                    SU3 = path;
+                    break;
+
+                case "4":
+                    SU4 = path;
+                    break;
+            }
+
+            //MANDAR LA ACTUALIZACION
+            await Clients.All.SendAsync("RecibirPath", quien, path);
+        }
+
 
         public async Task EnviarEstado(string usr, string msg)
         {

@@ -32,7 +32,7 @@
     <div style="border: 1px solid black; width: 300px; Height: 300px; background-color:white;">
         <hr />
         <ul style="color: red;">
-            @foreach (string msg in Invert)
+            @foreach (string msg in mensajes)
             {
                 <li style="padding-bottom:0px;">@msg</li>
             }
@@ -41,8 +41,7 @@
 </div>
 
 <div style="barckground-color:white; width:45%; heigth: 300px; float:left; align-items: center; padding-top: 150px;">
-    
-    <a style="background-color:white; padding: 30px; border-radius: 15px;"  href="https://docs.microsoft.com/aspnet/"> LINK A MI GOOGLE DRIVE. </a>
+    <a style="background-color:white; padding: 30px; border-radius: 15px;"  href="https://drive.google.com/drive/folders/11iBJMz-nrNrNpTPOGz7eHJdR1PpPN7D9?usp=sharing"> LINK AL DRIVE. </a>
 </div>
 
 </body>
@@ -70,7 +69,7 @@
             {
                 mensajes.RemoveAt(0);
             }
-            Invert = Enumerable.Reverse(mensajes).ToList();
+            //Invert = Enumerable.Reverse(mensajes).ToList();
             InvokeAsync(StateHasChanged);
         });
 

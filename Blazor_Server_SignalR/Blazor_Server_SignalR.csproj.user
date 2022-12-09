@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <NameOfLastUsedPublishProfile>C:\Users\Vazquez\source\repos\Blazor_Server_SignalR\Blazor_Server_SignalR\Properties\PublishProfiles\BlazorServerSignal2022 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\Vazquez\source\repos\Blazor_Server\Blazor_Server_SignalR\Properties\PublishProfiles\BlazorServerSignal2022 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
