@@ -1,48 +1,27 @@
 ﻿@page "/fetchdata"
 
-<PageTitle>Weather forecast</PageTitle>
+<PageTitle>Manijas del Software</PageTitle>
 
 @using Blazor_Server_SignalR.Data
 @inject WeatherForecastService ForecastService
 
-<h1>Weather forecast</h1>
+<h1 style="color: white; align-self: center; margin-bottom: 25px;">¡Manijeate con estas Descargas!</h1>
 
-<p>This component demonstrates fetching data from a service.</p>
+<h3>ITES - ROLEPLAY - </h3>
+<div>
+    <p>Nombre:</p><p> ITES_Roleplay</p>
+    <p>Duración:</p><p> 60min</p>
+    <p>Genero:</p><p> Clicker</p>
+    <p>Nacimiento:</p>
+    <pre>Fue realizado en Visual Studio con uso de  la  librería Windows Forms, y programado en lenguaje C#. </pre>
+</div>
+<div style="width:100%; height: 300px; float:left; align-items: center; padding-top: 150px; margin-top:25px; margin-bottom:25px;">
+    <a style="background-color:white; padding: 30px; border-radius: 15px;" href="https://drive.google.com/drive/folders/11iBJMz-nrNrNpTPOGz7eHJdR1PpPN7D9?usp=sharing"> LINK AL DRIVE. </a>
+</div>
 
-@if (forecasts == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var forecast in forecasts)
-            {
-                <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
 
-@code {
-    private WeatherForecast[]? forecasts;
 
-    protected override async Task OnInitializedAsync()
-    {
-        forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
-    }
-}
+<div style="width:100%; height: 300px; float:left; align-items: center; padding-top: 150px;">
+    <a style="background-color:white; padding: 30px; border-radius: 15px;" href="https://drive.google.com/drive/folders/11iBJMz-nrNrNpTPOGz7eHJdR1PpPN7D9?usp=sharing"> LINK AL DRIVE. </a>
+</div>
+
