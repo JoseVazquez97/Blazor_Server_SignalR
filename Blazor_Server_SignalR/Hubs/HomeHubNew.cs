@@ -15,7 +15,43 @@ namespace Blazor_Server_SignalR.Hubs
         private static string SU2 { get; set; } = "0";
         private static string SU3 { get; set; } = "0";
         private static string SU4 { get; set; } = "0";
+        private static int D1 { get; set; } = 0;
+        private static int D2 { get; set; } = 0;
+        private static int D3 { get; set; } = 0;
+        private static int D4 { get; set; } = 0;
 
+        public async Task EnviarNoti(int quien, int Noti, int turno)
+        {
+            switch (quien)
+            {
+                case 1:
+                    D1 = Noti;
+                    break;
+
+                case 2:
+                    D2 = Noti;
+                    break;
+
+                case 3:
+                    D3 = Noti;
+                    break;
+
+                case 4:
+                    D4 = Noti;
+                    break;
+            }
+
+            //MANDAR LA ACTUALIZACION
+            await Clients.All.SendAsync("RecibirNoti", quien, Noti, turno);
+        }
+
+        public async Task ConsultarNotis()
+        {
+            string msg = $"{D1};{D2};{D3};{D4};";
+
+            //MANDAR LA ACTUALIZACION
+            await Clients.Caller.SendAsync("RecibirCNotis", msg);
+        }
 
         public async Task ConsultarPath()
         {
@@ -25,9 +61,9 @@ namespace Blazor_Server_SignalR.Hubs
             await Clients.Caller.SendAsync("RecibirCPath", msg);
         }
 
-        public async Task EnviarPath(string quien, string path) 
+        public async Task EnviarPath(string quien, string path)
         {
-            switch (quien) 
+            switch (quien)
             {
                 case "1":
                     SU1 = path;
@@ -64,7 +100,7 @@ namespace Blazor_Server_SignalR.Hubs
             await Clients.All.SendAsync("RecibirBarcos", barco1, barco2);
         }
 
-        public async Task ConsutarBarcos() 
+        public async Task ConsutarBarcos()
         {
             string b1 = B1;
             string b2 = B2;
@@ -72,7 +108,7 @@ namespace Blazor_Server_SignalR.Hubs
             await Clients.All.SendAsync("RecibirCBarcos", b1, b2);
         }
 
-        public async Task EnviarDados(string usr, string val1, string val2) 
+        public async Task EnviarDados(string usr, string val1, string val2)
         {
             V1 = val1;
             V2 = val2;
@@ -80,7 +116,7 @@ namespace Blazor_Server_SignalR.Hubs
             await Clients.All.SendAsync("RecibirDados", usr, val1, val2);
         }
 
-        public async Task ConsultarDados() 
+        public async Task ConsultarDados()
         {
             string v1 = V1;
             string v2 = V2;
@@ -109,7 +145,7 @@ namespace Blazor_Server_SignalR.Hubs
             await Clients.All.SendAsync("RecibirMov", des);
         }
 
-        public async Task ConsultarMov() 
+        public async Task ConsultarMov()
         {
             string des = desCap;
 
