@@ -138,6 +138,11 @@ a, .btn-link {
     padding-top:18px;
 }
 
+.imgTitle {
+    width:500px; 
+    height:200px;
+}
+
 .tituloMain {
     margin: 20px;
     margin-bottom: 1px;
@@ -185,28 +190,64 @@ a, .btn-link {
 }
 
 .noticias {
-
-
+    border-top: 4px solid green;
+    width: 100%;
+    padding: 10px;
+    max-height: 525px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
-.top-row ,ps-3 ,navbar ,navbar-dark {
+.publicacion 
+{
+    height: 230px;
+    width: 100%;
+    margin-bottom:5px;
+    background-color: black;
+    border: 4px dashed white;
+    padding: 5px;
+}
+
+.imgPubl {
+    float:left;
+    width: 28%;
+    height: 100%;
+    border: 1px solid white;
+}
+
+.pPublic {
+    margin-left:10px;
+    float: left;
+    width: 70%;
+    height: 100%;
+    border: 1px solid white;
+}
+
+.parrafo {
+    width: 100%;
+    text-align:justify-all;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.top-row, ps-3, navbar, navbar-dark {
     background-color: black;
     border-bottom: 1px solid white;
 }
 
 /* width */
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 10px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background:  black;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #3a0647;
 }
 
     /* Handle on hover */
