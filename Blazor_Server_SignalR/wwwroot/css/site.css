@@ -67,3 +67,54 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+.subTituloNaranja {
+    font-size:30px;
+    color: #ff7f27;
+}
+
+.juegoBlock {
+    margin-top: 50px;
+    width: 100%;
+    border: 4px dashed white;
+    padding: 25px;
+    padding-bottom:30px;
+}
+
+.texto, pre {
+    font-size: medium;
+    text-align: justify-all;
+    width: 100%;
+    text-align: center;
+}
+
+.texto {
+    font-size: large;
+    text-align:left;
+}
+
+
+
+.btn_Descargar {
+    width: 90%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.btn_DescargarInt {
+    background-color: #2965f1;
+    padding: 30px;
+    border-radius: 15px;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 46%
+}
+
+.tituloManija {
+    width: 90%; 
+    margin-top: 40px; 
+    margin-bottom: 30px; 
+    padding-left: 12%;
+}
