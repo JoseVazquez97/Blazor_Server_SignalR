@@ -5,39 +5,42 @@
 @implements IAsyncDisposable
 
 <body style="background-color: black; padding:0; ">
-<div style="border: 2px solid black; margin: 20px; margin-bottom:1px; margin-top: 0px; padding: 25px; width: 100%; text-align: center; float:left;">
-    <h1 style="color: white;">Trabajo Practico</h1>
-    <h2 style="color: white; font-size:28px;">WENI</h2>
-</div>
-
-
-<div style="border: 2px solid black; margin: 25px; margin-top:0px; margin-bottom:1px;  padding: 25px; width:50%; float:left;">
-    <div class="form-group">
-        <label style="color: white; width: 300px">
-            User: <input @bind="userInput" style="width:100%;"></input>
-        </label>
-    </div>
-    <div class="form-group">
-
-        <label style="color: white; width: 300px">
-            Message: <input  @bind="msgInput" style="width:100%;"></input>
-        </label>
+    <div class="tituloMain">
+        <img style="width:700px; height:200px;" src="https://drive.google.com/uc?export=view&id=1DXbb_Ww0fCLhHcXkHR7W7W0ZHouZ5bOI">
     </div>
 
-    <button @onclick="Send"  disabled="@(EstaConectado == false)" style="color: black; border: 2px solid black; border-radius: 5px; width: 300px; align-items: center;">
-        Enviar
-    </button>
+    <div class="chatBox">
+        <div style="border: 1px solid black; width: 400px; Height: 400px; background-color:white;">
+            <hr />
+                <ul style="color: black;">
+                @foreach (string msg in mensajes)
+                {
+                    <li style="color: black; padding-bottom:0px;">@msg</li>
+                }
+            </ul>
+        </div>
 
-    <div style="border: 1px solid black; width: 300px; Height: 300px; background-color:white;">
-        <hr />
-        <ul style="color: red;">
-            @foreach (string msg in mensajes)
-            {
-                <li style="padding-bottom:0px;">@msg</li>
-            }
-        </ul>
+        <div class="form-group" style="width:400px;">
+            <label  style="color: black; width: 400px">User: </label>
+            <input @bind="userInput" style="color: black; width:100%;"></input>
+        </div>
+        
+
+        <div>
+            <div class="form-group" style="width:400px;">
+                <label style="color: black; width: 400px">Message: </label>
+                <input @bind="msgInput" @onkeydown="Enter" class="msgBox" style="color: black;"></input>
+                <button @onclick="Send" disabled="@(EstaConectado == false)" class="btn_enviar">Enviar</button>
+            </div>
+        </div>
     </div>
-</div>
+
+    <div class="noticiasIndex">
+        <h3 style="width:100%;">Noticias</h3>
+        <div class="noticias">
+
+        </div>
+    </div>
 
 </body>
 
@@ -75,16 +78,23 @@
     {
         if (hubConnection is not null)
         {
-            await hubConnection.SendAsync("EnviarMensaje", userInput, msgInput);
+            if (this.msgInput != null && this.msgInput != "")
+            {
+                await hubConnection.SendAsync("EnviarMensaje", userInput, msgInput);
+                this.msgInput = "";
+            }
         }
-
     }
 
-    private async void Enter(KeyboardEventArgs e)
+    private async Task Enter(KeyboardEventArgs e)
     {
-        if (e.Code == "Enter")
+        if (e.Key == "Enter")
         {
-            await Send();
+            if (this.msgInput != null && this.msgInput != "")
+            {
+                await hubConnection.SendAsync("EnviarMensaje", userInput, msgInput);
+                this.msgInput = "";
+            }
         }
     }
 
