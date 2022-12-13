@@ -1,11 +1,23 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+* {
+    color: #64d86b;
+}
 
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 h1:focus {
     outline: none;
+}
+
+h3 {
+    color: Yellow;
+    text-align: center;
+    font-size: 45px;
+    font-weight:900;
 }
 
 a, .btn-link {
@@ -61,4 +73,184 @@ a, .btn-link {
 
     .blazor-error-boundary::after {
         content: "An error has occurred."
+    }
+
+.subTituloNaranja {
+    font-size:30px;
+    font-weight:900;
+    color: #ff7f27;
+}
+
+.juegoBlock {
+    margin-top: 50px;
+    width: 100%;
+    border: 4px dashed white;
+    padding: 25px;
+    padding-bottom:30px;
+}
+
+.texto, pre {
+    font-size: medium;
+    text-align: justify-all;
+    width: 100%;
+    text-align: center;
+}
+
+.texto {
+    font-size: large;
+    text-align:left;
+}
+
+.btn_Descargar {
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.btn_DescargarInt {
+    background-color: #2965f1;
+    padding: 30px;
+    border-radius: 15px;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 43%
+}
+
+.tituloManija {
+    width: 100%; 
+    margin-top: 40px; 
+    margin-bottom: 30px; 
+    padding-left: 20%;
+}
+
+.parContex {
+    width: 100%;
+    align-items:center;
+}
+
+.imgNav {
+    margin-left: -25px;
+}
+
+.navbar-brand {
+    padding-top:18px;
+}
+
+.imgTitle {
+    width:500px; 
+    height:200px;
+}
+
+.tituloMain {
+    margin: 20px;
+    margin-bottom: 1px;
+    margin-top: 0px;
+    padding: 25px;
+    padding-top:0PX;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    float: left;
+}
+
+.chatBox {
+    float: left;
+    width: 28.5%;
+    border: 4px solid green;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: #3a0647;
+}
+
+.btn_enviar {
+    float: left;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 20%;
+    height: 60px;
+    align-items: center;
+    margin-left: 15PX;
+}
+
+.msgBox {
+    float: left;
+    width: 70%;
+    height: 60px;
+}
+
+.noticiasIndex {
+    float: left;
+    width: 70%;
+    border: 4px solid green;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.noticias {
+    border-top: 4px solid green;
+    width: 100%;
+    padding: 10px;
+    max-height: 525px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.publicacion 
+{
+    height: 230px;
+    width: 100%;
+    margin-bottom:5px;
+    background-color: black;
+    border: 4px dashed white;
+    padding: 5px;
+}
+
+.imgPubl {
+    float:left;
+    width: 28%;
+    height: 100%;
+    border: 1px solid white;
+}
+
+.pPublic {
+    margin-left:10px;
+    float: left;
+    width: 70%;
+    height: 100%;
+    border: 1px solid white;
+}
+
+.parrafo {
+    width: 100%;
+    text-align:justify-all;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.top-row, ps-3, navbar, navbar-dark {
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background:  black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #3a0647;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
     }

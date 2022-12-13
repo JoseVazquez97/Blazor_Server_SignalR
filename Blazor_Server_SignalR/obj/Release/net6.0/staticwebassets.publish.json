@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FuBbK8GqX6jSRK6lL+IoUej7JV/lKjtf4eeW72iJnUM=",
+  "Hash": "RUEXIX3BQo78y4ZUE1FdyaObGQYRd4ecRfvZru42eok=",
   "Source": "Blazor_Server_SignalR",
   "BasePath": "_content/Blazor_Server_SignalR",
   "Mode": "Default",
@@ -255,12 +255,12 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server\\Blazor_Server_SignalR\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server\\Blazor_Server_SignalR\\wwwroot\\favIcon.png",
       "SourceId": "Blazor_Server_SignalR",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server\\Blazor_Server_SignalR\\wwwroot\\",
       "BasePath": "_content/Blazor_Server_SignalR",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "favIcon.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -269,7 +269,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favIcon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server\\Blazor_Server_SignalR\\wwwroot\\favImag.jpg",
+      "SourceId": "Blazor_Server_SignalR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server\\Blazor_Server_SignalR\\wwwroot\\",
+      "BasePath": "_content/Blazor_Server_SignalR",
+      "RelativePath": "favImag.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favImag.jpg"
     },
     {
       "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server\\Blazor_Server_SignalR\\wwwroot\\js\\indexmio.js",
@@ -287,6 +304,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\indexmio.js"
+    },
+    {
+      "Identity": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server\\Blazor_Server_SignalR\\wwwroot\\Nombre.png",
+      "SourceId": "Blazor_Server_SignalR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Vazquez\\source\\repos\\Blazor_Server\\Blazor_Server_SignalR\\wwwroot\\",
+      "BasePath": "_content/Blazor_Server_SignalR",
+      "RelativePath": "Nombre.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Nombre.png"
     }
   ]
 }
