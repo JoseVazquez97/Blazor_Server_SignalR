@@ -130,10 +130,6 @@ a, .btn-link {
     align-items:center;
 }
 
-.pequenioMargen {
-    padding-left: 5%;
-}
-
 .imgNav {
     margin-left: -25px;
 }
@@ -176,7 +172,7 @@ a, .btn-link {
 
 .msgBox {
     float: left;
-    width: 75%;
+    width: 70%;
     height: 60px;
 }
 
@@ -192,3 +188,28 @@ a, .btn-link {
 
 
 }
+
+.top-row ,ps-3 ,navbar ,navbar-dark {
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }

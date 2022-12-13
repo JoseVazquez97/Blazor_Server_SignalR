@@ -10,7 +10,7 @@
     </div>
 
     <div class="chatBox">
-        <div style="border: 1px solid black; width: 400px; Height: 400px; background-color:white;">
+        <div style="border: 1px solid black; width: auto; Height: 400px; background-color:white;">
             <hr />
                 <ul style="color: black;">
                 @foreach (string msg in mensajes)
@@ -20,17 +20,20 @@
             </ul>
         </div>
 
-        <div class="form-group" style="width:400px;">
+        <div class="form-group" style="width:auto;">
             <label  style="color: black; width: 400px">User: </label>
             <input @bind="userInput" style="color: black; width:100%;"></input>
         </div>
         
 
         <div>
-            <div class="form-group" style="width:400px;">
+            <div class="form-group" style="width:auto;">
                 <label style="color: black; width: 400px">Message: </label>
-                <input @bind="msgInput" @onkeydown="Enter" class="msgBox" style="color: black;"></input>
-                <button @onclick="Send" disabled="@(EstaConectado == false)" class="btn_enviar">Enviar</button>
+                <div style="width:auto;">
+                    <input @bind="msgInput" @onkeydown="Enter" class="msgBox" style="color: black;"></input>
+                    <button @onclick="Send" disabled="@(EstaConectado == false)" class="btn_enviar">Enviar</button>
+                </div>
+                
             </div>
         </div>
     </div>

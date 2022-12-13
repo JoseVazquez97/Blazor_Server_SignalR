@@ -10,6 +10,14 @@
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="7.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="RecursosWeb\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Nombre.png" />
+  </ItemGroup>
+
   <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>
