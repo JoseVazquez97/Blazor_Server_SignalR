@@ -20,22 +20,21 @@
             </ul>
         </div>
 
-        <div class="form-group" style="width:auto;">
-            <label  style="color: black; width: 400px">User: </label>
-            <input @bind="userInput" style="color: black; width:100%;"></input>
+        <div class="form-group" style="width:100%;">
+            <label style="color: #64d86b;; width: 100%; font-weight:700; font-size:20px;">User: </label>
+            <input @bind="userInput" style="color: black; font-weight:700; width:100%;"></input>
         </div>
         
-
         <div>
-            <div class="form-group" style="width:auto;">
-                <label style="color: black; width: 400px">Message: </label>
-                <div style="width:auto;">
-                    <input @bind="msgInput" @onkeydown="Enter" class="msgBox" style="color: black;"></input>
+            <div class="form-group" style="width:100%;">
+                <label style="color:#64d86b;; width: 100%; font-weight:900; font-size:20px;">Message: </label>
+                <div style="width:100%;">
+                    <input @bind="msgInput" @onkeydown="Enter" class="msgBox" style="color: black; font-weight:700;"></input>
                     <button @onclick="Send" disabled="@(EstaConectado == false)" class="btn_enviar">Enviar</button>
                 </div>
-                
             </div>
         </div>
+
     </div>
 
     <div class="noticiasIndex">

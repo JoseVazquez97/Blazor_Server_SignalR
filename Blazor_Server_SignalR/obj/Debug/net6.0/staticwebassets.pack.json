@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Blazor_Server_SignalR.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\Nombre.png",
+      "PackagePath": "staticwebassets\\Nombre.png"
+    },
+    {
       "Id": "C:\\Users\\JVazquez\\source\\repos\\Blazor_Server_SignalR\\Blazor_Server_SignalR\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
