@@ -10,7 +10,7 @@ namespace Blazor_Server_SignalR.Hubs
         private static string B2 { get; set; } = "";
         private static string V1 { get; set; } = "1";
         private static string V2 { get; set; } = "1";
-        private static string ER { get; set; } = "";
+        private static string ER { get; set; } = "M10";
         private static string SU1 { get; set; } = "0";
         private static string SU2 { get; set; } = "0";
         private static string SU3 { get; set; } = "0";
@@ -152,11 +152,10 @@ namespace Blazor_Server_SignalR.Hubs
             await Clients.All.SendAsync("RecibirCMov", des);
         }
 
-        public async Task EnviarEvento(string evento)
+        public async Task EnviarEvento(int rol, string evento)
         {
-            ER = evento;
 
-            await Clients.All.SendAsync("RecibirEvento", evento);
+            await Clients.All.SendAsync("RecibirEvento", rol, evento);
         }
 
         public async Task ConsultarEv()
