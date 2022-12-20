@@ -20,6 +20,29 @@ namespace Blazor_Server_SignalR.Hubs
         private static int D3 { get; set; } = 0;
         private static int D4 { get; set; } = 0;
 
+
+        private async Task ReiniciarDatosServer() 
+        {
+            mapax = "";
+            desCap = "";
+            B1 = "";
+            B2  = "";
+            V1  = "1";
+            V2  = "1";
+            ER  = "M10";
+            SU1  = "0";
+            SU2  = "0";
+            SU3  = "0";
+            SU4  = "0";
+            D1 = 0;
+            D2 = 0;
+            D3  = 0;
+            D4 = 0;
+
+            await Clients.All.SendAsync("RecibirOk", "Ok!");
+        }
+
+
         public async Task EnviarNoti(int quien, int Noti, int turno)
         {
             switch (quien)
