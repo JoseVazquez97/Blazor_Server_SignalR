@@ -119,20 +119,10 @@ namespace Blazor_Server_SignalR.Hubs
             await Clients.All.SendAsync("RecibirEstado", usr, msg);
         }
 
-        public async Task EnviarBarcos(string barco1, string barco2)
+        public async Task EnviarBarco(int usr, string barco)
         {
-            B1 = barco1;
-            B2 = barco2;
 
-            await Clients.All.SendAsync("RecibirBarcos", barco1, barco2);
-        }
-
-        public async Task ConsutarBarcos()
-        {
-            string b1 = B1;
-            string b2 = B2;
-
-            await Clients.All.SendAsync("RecibirCBarcos", b1, b2);
+            await Clients.All.SendAsync("RecibirBarco", usr, barco);
         }
 
         public async Task EnviarDados(string usr, string val1, string val2, string listo)
