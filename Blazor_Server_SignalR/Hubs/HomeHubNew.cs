@@ -21,7 +21,7 @@ namespace Blazor_Server_SignalR.Hubs
         private static int D4 { get; set; } = 0;
 
 
-        private async Task ReiniciarDatosServer() 
+        private static void ReiniciarDatosServer() 
         {
             mapax = "";
             desCap = "";
@@ -38,10 +38,14 @@ namespace Blazor_Server_SignalR.Hubs
             D2 = 0;
             D3  = 0;
             D4 = 0;
-
-            await Clients.All.SendAsync("RecibirOk", "Ok!");
         }
 
+
+        public async Task EnviarRecursos(int usr, string msg)
+        {
+            
+            await Clients.All.SendAsync("RecibirRecursos", usr, msg);
+        }
 
         public async Task EnviarNoti(int quien, int Noti, int turno)
         {
@@ -131,12 +135,12 @@ namespace Blazor_Server_SignalR.Hubs
             await Clients.All.SendAsync("RecibirCBarcos", b1, b2);
         }
 
-        public async Task EnviarDados(string usr, string val1, string val2)
+        public async Task EnviarDados(string usr, string val1, string val2, string listo)
         {
             V1 = val1;
             V2 = val2;
 
-            await Clients.All.SendAsync("RecibirDados", usr, val1, val2);
+            await Clients.All.SendAsync("RecibirDados", usr, val1, val2, listo);
         }
 
         public async Task ConsultarDados()
