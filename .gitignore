@@ -368,3 +368,10 @@ TrabajoPracticoFinalSegundo/Recursos/Avatars/avatarMercader.png
 .vs
 Blazor_Server_SignalR/obj
 Blazor_Server_SignalR
+Blazor_Server_SignalR/obj/Debug
+.vs/Blazor_Server_SignalR/v17/.suo
+Blazor_Server_SignalR/bin
+*.json
+*.props
+*.cache
+Blazor_Server_SignalR/obj/staticwebassets.pack.sentinel
