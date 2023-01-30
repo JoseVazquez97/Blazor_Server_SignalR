@@ -4,18 +4,21 @@
 @inject NavigationManager NavManager
 @implements IAsyncDisposable
 
+
 <body style="background-color: black; padding:0; ">
+
     <div class="tituloMain">
-        <img class="imgTitle" src="https://drive.google.com/uc?export=view&id=1DXbb_Ww0fCLhHcXkHR7W7W0ZHouZ5bOI">
+        <img class="imgTitle" src="https://drive.google.com/uc?export=view&id=155Isja1Dg86UAc9-u5PPnTnDhZvj07A5">
     </div>
 
-    <div class="chatBox">
+    <img class="fixearDerecha" onClick="topFunction()" src="https://drive.google.com/uc?export=view&id=11-wqy68zYUnXchYwZJR3Ry1r4m7MmkYa">
+    <div id="informacion" class="chatBox">
         <div style="border: 1px solid black; width: auto; Height: 400px; background-color:white;">
             <hr />
                 <ul style="color: black;">
                 @foreach (string msg in mensajes)
                 {
-                    <li style="color: black; padding-bottom:0px;">@msg</li>
+                        <li style="color: black; padding-bottom:0px;">@msg</li>
                 }
             </ul>
         </div>
@@ -24,7 +27,7 @@
             <label style="color: #64d86b;; width: 100%; font-weight:700; font-size:20px;">User: </label>
             <input @bind="userInput" style="color: black; font-weight:700; width:100%;"></input>
         </div>
-        
+
         <div>
             <div class="form-group" style="width:100%;">
                 <label style="color:#64d86b;; width: 100%; font-weight:900; font-size:20px;">Message: </label>
@@ -97,7 +100,7 @@
             var mensajeCompleto = $"{user}:  {msg}";
             mensajes.Add(mensajeCompleto);
 
-            if (mensajes.Count > 10) 
+            if (mensajes.Count > 10)
             {
                 mensajes.RemoveAt(0);
             }
